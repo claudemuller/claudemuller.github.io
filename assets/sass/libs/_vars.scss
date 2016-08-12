@@ -40,10 +40,10 @@ $palette: (
   border3-bg:	#eaeaea,
 
   accent1: (
-    bg:		#c06038, /*#4acaa8,*/
+    bg:		#FC4A1A, /*#c06038,*/ /*#4acaa8,*/
     fg-bold:	#ffffff,
-    fg:		mix(#4acaa8, #ffffff, 25%),
-    fg-light:	mix(#4acaa8, #ffffff, 40%)
+    fg:		mix(#FC4A1A, #ffffff, 25%),
+    fg-light:	mix(#FC4A1A, #ffffff, 40%)
   ),
 
   accent2: (
@@ -54,10 +54,15 @@ $palette: (
   ),
 
   header: (
-    bg:		#4a545d, /*#4acaa8,*/
+    bg:		#233237, /*#4a545d,*/ /*#4acaa8,*/
     fg-bold:	#ffffff,
     fg:		mix(#4a545d, #ffffff, 25%),
     fg-light:	mix(#4a545d, #ffffff, 40%),
     border:	mix(#4a545d, #ffffff, 90%)
+  ),
+
+  other: (
+    fg:         #4ABDAC
   )
+
 );

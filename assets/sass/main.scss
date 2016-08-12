@@ -1080,15 +1080,21 @@ input[type="button"],
   }
 }
 
-.header-fg-colour {
+.labels-accent {
   li {
       background-color: _palette(accent1, bg);
   }
 }
 
-.header-bg-colour {
+.labels-dark {
   li {
     background-color: _palette(header, bg);
+  }
+}
+
+.labels-accent2 {
+  li {
+    background-color: _palette(other, fg);
   }
 }
 
