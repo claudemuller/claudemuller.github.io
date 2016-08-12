@@ -1,6 +1,6 @@
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic");
-/*|Source+Code+Pro:400");*/
+@import url("lato.css");
+/*@import url("http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");*/
 /* Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -1143,7 +1143,7 @@ body {
 
 body, input, select, textarea {
   color: #888;
-  font-family: "Lato", sans-serif;
+  font-family: "latoregular", sans-serif;
   font-size: 16pt;
   font-weight: 400;
   line-height: 1.75em; }
@@ -1162,9 +1162,11 @@ a {
 
 strong, b {
   color: #777;
+  font-family: "latolight_bold", sans-serif;
   font-weight: 700; }
 
 em, i {
+  font-family: "latolight_italic", sans-serif;
   font-style: italic; }
 
 p {
@@ -1172,6 +1174,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #777;
+  font-family: "latoregular", sans-serif;
   font-weight: 700;
   line-height: 1em;
   margin: 0 0 0.5625em 0; }
@@ -1219,6 +1222,7 @@ hr {
 
 blockquote {
   border-left: solid 8px e4e4e4;
+  font-family: "latolight_italic", sans-serif;
   font-style: italic;
   margin: 0 0 2.25em 0;
   padding: 0.5em 0 0.5em 2em; }
@@ -1284,6 +1288,7 @@ header.major h2 {
   header.major h2 + p {
     color: #777;
     font-size: 1.75em;
+    font-family: "latoregular", sans-serif;
     font-weight: 700;
     margin-top: -0.75em; }
 
@@ -1295,6 +1300,7 @@ label {
   color: #777;
   display: block;
   font-size: 0.9em;
+  font-family: "latolight_bold", sans-serif;
   font-weight: 700;
   margin: 0 0 1.125em 0; }
 
@@ -1431,26 +1437,31 @@ input[type="radio"] + label:before {
 
 ::-webkit-input-placeholder {
   color: #aaa !important;
+  font-family: "latolight_italic", sans-serif;
   font-style: italic;
   opacity: 1.0; }
 
 :-moz-placeholder {
   color: #aaa !important;
+  font-family: "latolight_italic", sans-serif;
   font-style: italic;
   opacity: 1.0; }
 
 ::-moz-placeholder {
   color: #aaa !important;
+  font-family: "latolight_italic", sans-serif;
   font-style: italic;
   opacity: 1.0; }
 
 :-ms-input-placeholder {
   color: #aaa !important;
+  font-family: "latolight_italic", sans-serif;
   font-style: italic;
   opacity: 1.0; }
 
 .formerize-placeholder {
   color: #aaa !important;
+  font-family: "latolight_italic", sans-serif;
   font-style: italic;
   opacity: 1.0; }
 
@@ -1642,6 +1653,7 @@ table {
   table th {
     color: #777;
     font-size: 0.9em;
+    font-family: "latolight_bold", sans-serif;
     font-weight: 700;
     padding: 0 0.75em 0.75em 0.75em;
     text-align: left; }
@@ -1683,6 +1695,7 @@ input[type="button"],
   color: #ffffff !important;
   cursor: pointer;
   display: inline-block;
+  font-family: "latolight_bold", sans-serif;
   font-weight: 700;
   height: 2.75em;
   line-height: 2.75em;
@@ -1851,6 +1864,7 @@ input[type="button"],
       margin: 0; }
     #header > header p {
       color: #d2d4d7;
+      font-family: "latolight_italic", sans-serif;
       font-style: italic;
       margin: 1em 0 0 0; }
   #header > footer {
@@ -1967,6 +1981,7 @@ input[type="button"],
   opacity: 0.5; }
 
 .italic {
+  font-family: "latolight_italic", sans-serif;
   font-style: italic; }
 
 /* XLarge */
@@ -2081,6 +2096,7 @@ input[type="button"],
     #titleBar .title {
       color: #fff;
       display: block;
+      font-family: "latolight_bold", sans-serif;
       font-weight: 700;
       height: 44px;
       line-height: 44px;
