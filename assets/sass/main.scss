@@ -3,7 +3,8 @@
 @import 'libs/mixins';
 @charset "UTF-8";
 @import url('font-awesome.min.css');
-@import url("http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic");/*|Source+Code+Pro:400");*/
+@import url('lato.css');
+/*@import url("http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");*/
 @import "libs/skel";
 
 @include skel-breakpoints((
@@ -69,10 +70,12 @@ a {
 
 strong, b {
   color: _palette(fg-bold);
+  font-family: _font(family-bold);
   font-weight: _font(weight-bold);
 }
 
 em, i {
+  font-family: _font(family-italic);
   font-style: italic;
 }
 
@@ -82,6 +85,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: _palette(fg-bold);
+  font-family: _font(family);
   font-weight: _font(weight-bold);
   line-height: 1em;
   margin: 0 0 (_size(element-margin) * 0.25) 0;
@@ -142,6 +146,7 @@ hr {
 
 blockquote {
   border-left: solid (_size(border-width) * 4) _palette(border2);
+  font-family: _font(family-italic);
   font-style: italic;
   margin: 0 0 _size(element-margin) 0;
   padding: 0.5em 0 0.5em 2em;
@@ -226,6 +231,7 @@ header {
       & + p {
 	color: _palette(fg-bold);
 	font-size: 1.75em;
+        font-family: _font(family);
 	font-weight: _font(weight-bold);
 	margin-top: -0.75em;
       }
@@ -246,6 +252,7 @@ label {
   color: _palette(fg-bold);
   display: block;
   font-size: 0.9em;
+  font-family: _font(family-bold);
   font-weight: _font(weight-bold);
   margin: 0 0 (_size(element-margin) * 0.5) 0;
 }
@@ -386,30 +393,35 @@ input[type="radio"] {
 
 ::-webkit-input-placeholder {
   color: _palette(fg-light) !important;
+  font-family: _font(family-italic);
   font-style: italic;
   opacity: 1.0;
 }
 
 :-moz-placeholder {
   color: _palette(fg-light) !important;
+  font-family: _font(family-italic);
   font-style: italic;
   opacity: 1.0;
 }
 
 ::-moz-placeholder {
   color: _palette(fg-light) !important;
+  font-family: _font(family-italic);
   font-style: italic;
   opacity: 1.0;
 }
 
 :-ms-input-placeholder {
   color: _palette(fg-light) !important;
+  font-family: _font(family-italic);
   font-style: italic;
   opacity: 1.0;
 }
 
 .formerize-placeholder {
   color: _palette(fg-light) !important;
+  font-family: _font(family-italic);
   font-style: italic;
   opacity: 1.0;
 }
@@ -689,6 +701,7 @@ table {
   th {
     color: _palette(fg-bold);
     font-size: 0.9em;
+    font-family: _font(family-bold);
     font-weight: _font(weight-bold);
     padding: 0 0.75em 0.75em 0.75em;
     text-align: left;
@@ -749,6 +762,7 @@ input[type="button"],
   color: _palette(accent2, fg-bold) !important;
   cursor: pointer;
   display: inline-block;
+  font-family: _font(family-bold);
   font-weight: _font(weight-bold);
   height: _size(element-height);
   line-height: _size(element-height);
@@ -930,6 +944,7 @@ input[type="button"],
 
     p {
       color: _palette(header, fg);
+      font-family: _font(family-italic);
       font-style: italic;
       margin: 1em 0 0 0;
     }
@@ -1103,6 +1118,7 @@ input[type="button"],
 }
 
 .italic {
+  font-family: _font(family-italic);
   font-style: italic;
 }
 
@@ -1285,6 +1301,7 @@ input[type="button"],
     .title {
       color: #fff;
       display: block;
+      font-family: _font(family-bold);
       font-weight: _font(weight-bold);
       height: 44px;
       line-height: 44px;
