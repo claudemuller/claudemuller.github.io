@@ -1590,7 +1590,7 @@ ul {
       ul.icons li:last-child {
         padding-right: 0 !important; }
       ul.icons li .icon:before {
-        font-size: 1.25em; }
+        font-size: 25px; }
   ul.actions {
     cursor: default;
     list-style: none;
@@ -1983,6 +1983,10 @@ input[type="button"],
 .italic {
   font-family: "latolight_italic", sans-serif;
   font-style: italic; }
+
+.mobile-store-icon {
+  margin-top: 20px;
+  width: 49%; }
 
 /* XLarge */
 @media screen and (max-width: 1680px) {

@@ -587,7 +587,7 @@ ul {
 
       .icon {
 	&:before {
-	  font-size: 1.25em;
+	  font-size: 25px;
 	}
       }
     }
@@ -1120,6 +1120,11 @@ input[type="button"],
 .italic {
   font-family: _font(family-italic);
   font-style: italic;
+}
+
+.mobile-store-icon {
+  margin-top: 20px;
+  width: 49%;
 }
 
 
