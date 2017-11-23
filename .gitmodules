@@ -1,4 +1,4 @@
-[submodule "adventures-of-leif-eriksson"]
+[submodule "games/adventures-of-leif-eriksson"]
 	path = games/adventures-of-leif-eriksson
 	url = https://github.com/claudemuller/adventures-of-leif-eriksson
 	branch = master
