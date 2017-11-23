@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>The Adventures of Leif Eriksson</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>The Adventures of Leif Eriksson</h1>
+            <div class="image-container">
+                <img src="" width="600" height="450">
+            </div>
+            <p class="output" id="output"></p>
+            <div class="input">
+                <button id="north">north</button><br>
+                <button id="west">west</button>
+                <button id="east">east</button><br>
+                <button id="south">south</button>
+                <div class="action">
+                    <input type="text" id="input" placeholder="Enter action..."><button id="action">enter</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="src/map.js"></script>
+<script src="src/images.js"></script>
+<script src="src/blockedPathMessages.js"></script>
+<script src="src/game.js"></script>
+<script>
+    ADVENTURE.game.init();
+</script>
+</html>
