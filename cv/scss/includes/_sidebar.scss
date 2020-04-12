@@ -1,0 +1,33 @@
+@import "variables";
+
+.sidebar {
+    padding-top: $top-padding;
+    background-color: $lighter-grey;
+}
+
+.sidebar-item {
+    margin-bottom: 30px;
+}
+
+.contact-item {
+    margin-bottom: 15px;
+
+    h5 {
+        margin-bottom: 0;
+    }
+}
+
+.skill {
+    margin-bottom: 10px;
+
+    .half {
+        svg {
+         color: $light-grey;
+        }
+    }
+    .full {
+        svg {
+         color: $dark-grey;
+        }
+    }
+}

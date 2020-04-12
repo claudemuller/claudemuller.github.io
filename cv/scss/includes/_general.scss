@@ -1,0 +1,122 @@
+@import "variables";
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    font-family: 'Roboto', sans-serif;
+    color: $font-color;
+    line-height: 1.7rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+h3 {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ddd;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+
+h6 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+a,
+a:active,
+a:focus,
+a:visited {
+    color: $font-color;
+}
+a:hover {
+    color: $red;
+}
+
+p,
+div {
+    font-weight: 300;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.btn-primary {
+    @include button-variant($button-color, darken($button-color, 7.5%), darken($button-color, 10%), lighten($button-color,5%), lighten($button-color, 10%), darken($button-color,30%));
+}
+
+.btn-outline-primary {
+    @include button-outline-variant($button-color, #222222, lighten($button-color,5%), $button-color);
+    &:visited {
+        color: $red;
+    }
+    &:hover,
+    &:active,
+    &:focus {
+        color: $font-color !important;
+    }
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: $red;
+    background-color: $red;
+}
+.custom-radio .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(255, 123, 255, 0.25); /* pink, 25% opacity */
+}
+
+.content {
+    padding-top: $top-padding;
+}
+
+.work-history-item,
+.education-item {
+    margin-bottom: 25px;
+
+    div:first-child {
+        max-width: 170px;
+        font-weight: 700;
+    }
+
+    ul {
+        margin-bottom: 10px;
+    }
+}
+
+.education-item {
+    margin-bottom: 20px;
+
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+.badge {
+    padding: 5px;
+}
+.badge-primary {
+    background-color: $mid-grey;
+    &:hover {
+        background-color: $red;
+        cursor: pointer;
+    }
+}
