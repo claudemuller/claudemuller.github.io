@@ -7908,6 +7908,11 @@ strong {
     background-color: #ff6666;
     cursor: pointer; }
 
+.e-mail:before {
+  content: attr(data-website) "@" attr(data-user);
+  unicode-bidi: bidi-override;
+  direction: rtl; }
+
 .header {
   padding: 40px 0 20px 0;
   background-color: #373d48; }
