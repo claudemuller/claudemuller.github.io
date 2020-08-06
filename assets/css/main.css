@@ -1924,8 +1924,7 @@ input[type="button"],
 
 /* One */
 #one:before {
-  /*background-image: url("../../images/banner.jpg");*/
-  background-image: url("/Users/span/Pictures/wallpapers/desk1.jpeg");
+  background-image: url("../../images/desk1.jpeg");
   background-position: center 41%;
   background-repeat: no-repeat;
   background-size: cover;
