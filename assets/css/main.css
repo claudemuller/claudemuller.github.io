@@ -1830,7 +1830,7 @@ input[type="button"],
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #233237;
+  background: #171B1E; /*#233237;*/
   color: #d2d4d7;
   height: 100%;
   overflow-y: auto;
@@ -1924,14 +1924,14 @@ input[type="button"],
 
 /* One */
 #one:before {
-  background-image: url("../../images/banner.jpg");
-  /*background-image: url("/Users/span/Pictures/johnny-mnemonic-wallpaper.jpg");*/
-  background-position: top right;
+  /*background-image: url("../../images/banner.jpg");*/
+  background-image: url("/Users/span/Pictures/wallpapers/desk1.jpeg");
+  background-position: center 41%;
   background-repeat: no-repeat;
   background-size: cover;
   content: '';
   display: block;
-  height: 15em;
+  height: 18em;
   width: 100%; }
 
 /* Footer */
