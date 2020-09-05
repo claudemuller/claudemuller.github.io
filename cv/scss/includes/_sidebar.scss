@@ -20,6 +20,20 @@
 .skill {
     margin-bottom: 10px;
 
+    .skill-type,
+    .skill-balls {
+        display: flex;
+    }
+    .skill-type {
+        margin-left: 15px;
+        flex-grow: 2;
+    }
+
+    .skill-balls {
+        margin-right: 15px;
+        flex-grow: 1;
+    }
+
     .half {
         svg {
          color: $light-grey;
