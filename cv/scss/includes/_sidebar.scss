@@ -32,6 +32,10 @@
     .skill-balls {
         margin-right: 15px;
         flex-grow: 1;
+
+        .half {
+            margin-right: 4px;
+        }
     }
 
     .half {

@@ -7959,9 +7959,12 @@ strong {
 .skill-balls {
   display: flex;
 }
+.skill-balls .half {
+  margin-right: 4px;
+}
 .skill-type {
   margin-left: 15px;
-  flex-grow: 2;
+  flex-grow: 100;
 }
 .skill-balls {
   margin-right: 15px;
