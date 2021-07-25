@@ -579,7 +579,7 @@ ul {
 
     li {
       display: inline-block;
-      padding: 0 1em 0 0;
+      padding: 0 0.7em 0 0;
 
       &:last-child {
 	padding-right: 0 !important;
@@ -1635,4 +1635,9 @@ input[type="button"],
     padding: 0;
   }
 
+}
+
+.grayscale {
+  filter: invert(100%) brightness(0.70);
+  -webkit-filter: invert(100%) brightness(0.70);
 }
