@@ -23,10 +23,10 @@ function initStoryControl(control, downloadBtn) {
 
     if (isStoryMode) {
       titleTag.text = 'Cirriculum Vitae of Claude Müller';
-      downloadBtn.href = 'files/Cirriculum Vitae of Claude Müller-25.07.2021_online.pdf';
+      downloadBtn.href = 'files/Cirriculum Vitae of Claude Müller-27.07.2021_online.pdf';
     } else {
       titleTag.text = "Claude Müller's Resume";
-      downloadBtn.href = "files/Claude Müller's Resume-25.07.2021_online.pdf";
+      downloadBtn.href = "files/Claude Müller's Resume-27.07.2021_online.pdf";
     }
 
     Array.from(storyModeItems).forEach(item => {
